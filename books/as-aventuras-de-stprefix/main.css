@@ -1,0 +1,136 @@
+body{
+    background-image: url("../../assets/bg.png");
+    background-repeat: repeat;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.text{
+    background-color: white;
+    border: solid 5px white;
+    border-radius: 8px;
+    font-family: Arial;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkBack{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: limegreen;
+    border: solid 5px limegreen;
+    border-radius: 8px 0 0 8px;
+    font-family: Arial;
+    transition: 0.2s;
+}
+
+.linkBackDis{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: rgb(50, 50, 50);
+    border: solid 5px rgb(50, 50, 50);
+    border-radius: 8px 0 0 8px;
+    font-family: Arial;
+    transition: 0.2s;
+}
+
+.linkNext{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: limegreen;
+    border: solid 5px limegreen;
+    border-radius: 0 8px 8px 0;
+    font-family: Arial;
+    transition: 0.2s;
+}
+
+.linkNextDis{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: rgb(50, 50, 50);
+    border: solid 5px rgb(50, 50, 50);
+    border-radius: 0 8px 8px 0;
+    font-family: Arial;
+    transition: 0.2s;
+}
+
+.linkLibrary{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: limegreen;
+    border: solid 5px limegreen;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial;
+    transition: 0.2s;
+}
+
+.linkBack:hover{
+    color: limegreen;
+    background-color: white;
+    border: solid 5px limegreen;
+}
+
+.linkNext:hover{
+    color: limegreen;
+    background-color: white;
+    border: solid 5px limegreen;
+}
+
+.linkLibrary:hover{
+    color: limegreen;
+    background-color: white;
+    border: solid 5px limegreen;
+}
+
+footer{
+    color: white;
+    font-family: Arial;
+    background-color: rgb(80, 80, 80);
+    border: solid 5px rgb(80, 80, 80);
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+mark.red{
+    color: red;
+    background: none;
+}
+
+.github{
+    height: 30px;
+}
+
+.glossaryPage{
+    text-decoration: none;
+    color: black;
+}

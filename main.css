@@ -1,0 +1,36 @@
+body{
+    background-image: url("assets/bg.png");
+    background-repeat: repeat;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cover{
+    text-align: center;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 20px 15px rgb(0, 0, 0, 0.5);
+    position: relative;
+    top: 40px;
+    transition: 0.4s;
+    margin: 10px;
+}
+
+.cover:hover{
+    top: 0;
+    right: 40;
+    box-shadow: 20px 60px 15px rgb(0, 0, 0, 0.5);
+    height: 55vh;
+}
+
+.covers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
